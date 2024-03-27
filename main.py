@@ -14,3 +14,5 @@ estado_civil.show()
 escolaridade = px.histogram(dados, x='escolaridade', text_auto=True, color='aderencia_investimento', barmode='group')
 escolaridade.show()
 
+inadimplencia = px.histogram(dados, x='inadimplencia', text_auto=True, color='aderencia_investimento', barmode='group')
+inadimplencia.show()
